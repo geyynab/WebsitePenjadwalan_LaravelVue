@@ -17,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 */
 Route::resource('/dosen', DosenController::class);
 Route::resource('/ruang', ruangController::class);
+Route::resource('/jadwalkuliah', jadwalkuliahController::class);  
+Route::resource('/user', userController::class);  
 Route::resource('/jam', Jamcontroller::class);
 Route::resource('/hari', hariController::class);
 Route::resource('/waktu_tidak_bersedia', waktu_tidak_bersediaController::class);
